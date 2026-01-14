@@ -8,6 +8,7 @@
 ```bash
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl apt-transport-https
+```bash
 
 curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.28/deb/Release.key | \
 sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
